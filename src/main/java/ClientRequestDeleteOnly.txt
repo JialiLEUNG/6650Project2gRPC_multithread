@@ -1,0 +1,3 @@
+put apple 10
+delete apple
+

@@ -5,29 +5,36 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.io.File;
 
-public final class KeyValStoreClient {
+public class KeyValStoreClient implements Runnable{
+    private String name;
 
-    public static void main(String[] args){
+    public KeyValStoreClient(String name){
+        this.name = name;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+
+    public void run(){
         // 1. ManagedChannelBuilder
         // 2. Use Plaintext
         ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 9090).usePlaintext(true).build();
-        System.out.println(System.getProperty("user.dir"));
-
 
         try {
             KeyValStoreGrpc.KeyValStoreBlockingStub clientStub = KeyValStoreGrpc.newBlockingStub(channel);
 
-            Scanner clientScanner = new Scanner(new File("./src/main/java/ClientRequestTCP.txt"));
+            Scanner clientScanner = new Scanner(new File("./src/main/java/ClientRequest.txt"));
 
             while(clientScanner.hasNext()){
                 String[] requestArr = clientScanner.nextLine().trim().split(" ");
 
                 String msg;
                 if (requestArr.length < 2){
-                    msg = "Error: Malformed Request from [consumer ]." +
-                            " Syntax: <operation> <key> OR <operation> <key> <value>. For example: get apple";
+                    msg = "----- Error: At least 2 argument needed at Time: " + System.currentTimeMillis() +
+                            ". Syntax: <operation> <key> OR <operation> <key> <value>. For example: get apple";
                     System.out.println(msg);
-
                 } else{
                     String action = requestArr[0].toLowerCase();
                     ByteString key = ByteString.copyFromUtf8(requestArr[1]);
@@ -44,7 +51,7 @@ public final class KeyValStoreClient {
                             }
                             break;
                         default:
-                            System.err.println("error: malformed request or unknown operation at time " + System.currentTimeMillis());
+                            System.err.println("----- Error: Unknown operation at time " + System.currentTimeMillis());
                             break;
                     }
                 }
@@ -61,18 +68,7 @@ public final class KeyValStoreClient {
     private static void doPut(KeyValStoreGrpc.KeyValStoreBlockingStub stub, ByteString key, ByteString value){
         KeyValueStore.PutResponse res = stub.put(
                     KeyValueStore.PutRequest.newBuilder().setKey(key).setValue(value).build());
-        System.out.println(res.getMsg());
-//        try{
-//            KeyValueStore.PutResponse res = stub.put(
-//                    KeyValueStore.PutRequest.newBuilder().setKey(key).setValue(value).build());
-//            if(!res.equals(KeyValueStore.PutResponse.getDefaultInstance())){
-//                throw new RuntimeException("Invalid response.");
-//            }
-//            // return success message
-////            res.set setResponseCode(0).setResponsemessage("Success");
-//        } catch (StatusRuntimeException e){
-//            System.err.println(e.getMessage());
-//        }
+        System.out.println(res.getMsg().toStringUtf8());
     }
 
     private static void doGet(KeyValStoreGrpc.KeyValStoreBlockingStub stub, ByteString key){
@@ -89,36 +85,15 @@ public final class KeyValStoreClient {
         } catch (StatusRuntimeException e) {
             e.printStackTrace();
         }
-
-//        try{
-//            KeyValueStore.GetResponse res = stub.get(KeyValueStore.GetRequest.newBuilder().setKey(key).build());
-
-//            if(res.getValue().size() < 1){
-//                throw new RuntimeException("Invalid response");
-//            }
-//        } catch(StatusRuntimeException e){
-//            System.err.println("Key not found. " + e.getMessage());
-//        }
     }
 
     private static void doDelete(KeyValStoreGrpc.KeyValStoreBlockingStub stub, ByteString key){
         try{
             KeyValueStore.DeleteResponse res = stub.delete(
                     KeyValueStore.DeleteRequest.newBuilder().setKey(key).build());
-
-
-
+            System.out.println(res.getMsg().toStringUtf8());
         } catch (StatusRuntimeException e) {
             e.printStackTrace();
         }
-
-//        try{
-//            KeyValueStore.DeleteResponse res = stub.delete(KeyValueStore.DeleteRequest.newBuilder().setKey(key).build());
-//            if(!res.equals(KeyValueStore.DeleteResponse.getDefaultInstance())){
-//                throw new RuntimeException("Invalid response");
-//            }
-//        } catch(StatusRuntimeException e){
-//            System.err.println("Key not found. " + e.getMessage());
-//        }
     }
 }

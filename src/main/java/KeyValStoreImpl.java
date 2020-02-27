@@ -46,10 +46,10 @@ public class KeyValStoreImpl extends KeyValStoreGrpc.KeyValStoreImplBase{
         String msg;
 
         if(val == null){
-            msg = "Put request succeeds at Time: " + System.currentTimeMillis();
+            msg = "+++++ Succeed: PUT request succeeds at Time: " + System.currentTimeMillis();
 
         } else{
-            msg = "Key already exists. Put request fails at Time: " + System.currentTimeMillis();
+            msg = "----- Error: Key already exists. PUT request fails at Time: " + System.currentTimeMillis();
         }
         response.setMsg(ByteString.copyFromUtf8(msg));
         responseObserver.onNext(response.build());
@@ -62,17 +62,8 @@ public class KeyValStoreImpl extends KeyValStoreGrpc.KeyValStoreImplBase{
     @Override
     public void get(KeyValueStore.GetRequest request, StreamObserver<KeyValueStore.GetResponse> responseObserver) {
         ByteBuffer key = request.getKey().asReadOnlyByteBuffer();
-//        String keyString = new String(key.array());
         pauseThread();
         ByteBuffer value = store.get(key);
-//        String keyString = null;
-//        try{
-//            keyString = new String(value.array(), "UTF-8");
-//
-//        } catch (UnsupportedEncodingException e) {
-//            e.printStackTrace();
-//        }
-
         KeyValueStore.GetResponse.Builder response = KeyValueStore.GetResponse.newBuilder();
         String msg;
         if (value != null){
@@ -81,11 +72,11 @@ public class KeyValStoreImpl extends KeyValStoreGrpc.KeyValStoreImplBase{
             // based on whether they’re inside our request getRequest),
             // and write them each in turn to the response observer using its onNext() method.
 
-            msg = "Succeed: Get request at Time: " + System.currentTimeMillis();
+            msg = "+++++ Succeed: GET request at Time: " + System.currentTimeMillis();
             response.setValue(ByteString.copyFrom(value.slice())).setMsg(ByteString.copyFromUtf8(msg));
 
         } else{
-            msg = "Error: Key does not exist. Get request fail at Time: " + System.currentTimeMillis(); //+ "\n" +
+            msg = "----- Error: Key does not exist. GET request fail at Time: " + System.currentTimeMillis(); //+ "\n" +
 //                  "[key " + key + "] not found.";
             response.setValue(ByteString.copyFromUtf8("NULL")).setMsg(ByteString.copyFromUtf8(msg));
         }
@@ -105,10 +96,10 @@ public class KeyValStoreImpl extends KeyValStoreGrpc.KeyValStoreImplBase{
         String msg;
         KeyValueStore.DeleteResponse.Builder response = KeyValueStore.DeleteResponse.newBuilder();
         if (store.remove(key) != null){
-            msg = "Succeed: Delete request at Time: " + System.currentTimeMillis();
+            msg = "+++++ Succeed: DELETE request at Time: " + System.currentTimeMillis();
 
         } else{
-            msg = "Error: Key does not exist. Delete request fail at Time: " + System.currentTimeMillis();
+            msg = "----- Error: Key does not exist. DELETE request fail at Time: " + System.currentTimeMillis();
 
         }
         response.setMsg(ByteString.copyFromUtf8(msg));
