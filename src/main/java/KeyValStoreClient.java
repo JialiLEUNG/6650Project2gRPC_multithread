@@ -4,9 +4,11 @@ import keyValueStore.*;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.io.File;
+import java.util.concurrent.TimeUnit;
 
 public class KeyValStoreClient implements Runnable{
     private String name;
+    private final int deadLineMs = 5000;
 
     public KeyValStoreClient(String name){
         this.name = name;
@@ -23,7 +25,8 @@ public class KeyValStoreClient implements Runnable{
         ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 9090).usePlaintext(true).build();
 
         try {
-            KeyValStoreGrpc.KeyValStoreBlockingStub clientStub = KeyValStoreGrpc.newBlockingStub(channel);
+            // The withDeadlineAfter() sets the deadline to 100ms from when the client RPC is set to when the response is picked up by the client.
+            KeyValStoreGrpc.KeyValStoreBlockingStub clientStub = KeyValStoreGrpc.newBlockingStub(channel).withDeadlineAfter(deadLineMs, TimeUnit.MILLISECONDS);
 
             Scanner clientScanner = new Scanner(new File("./src/main/java/ClientRequest.txt"));
 
