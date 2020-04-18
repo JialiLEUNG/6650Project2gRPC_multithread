@@ -7,7 +7,7 @@ public class KeyValStoreThreadPool {
         ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(4);
 
         for (int i = 0; i < 4; i++){
-            KeyValStoreClient client = new KeyValStoreClient("Client " + i);
+            KeyValStoreClient client = new KeyValStoreClient("Client " + i, args[0]);
             System.out.println("===== Created: " + client.getName());
             executor.execute(client);
         }

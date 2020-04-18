@@ -9,9 +9,11 @@ import java.util.concurrent.TimeUnit;
 public class KeyValStoreClient implements Runnable{
     private String name;
     private final int deadLineMs = 5000;
+    private String testFile = "";
 
-    public KeyValStoreClient(String name){
+    public KeyValStoreClient(String name, String testFile){
         this.name = name;
+        this.testFile = testFile;
     }
 
     public String getName(){
@@ -28,7 +30,7 @@ public class KeyValStoreClient implements Runnable{
             // The withDeadlineAfter() sets the deadline to 100ms from when the client RPC is set to when the response is picked up by the client.
             KeyValStoreGrpc.KeyValStoreBlockingStub clientStub = KeyValStoreGrpc.newBlockingStub(channel).withDeadlineAfter(deadLineMs, TimeUnit.MILLISECONDS);
 
-            Scanner clientScanner = new Scanner(new File("./src/main/java/ClientRequest.txt"));
+            Scanner clientScanner = new Scanner(new File(this.testFile)); //"./src/main/java/ClientRequest.txt"
 
             while(clientScanner.hasNext()){
                 String[] requestArr = clientScanner.nextLine().trim().split(" ");

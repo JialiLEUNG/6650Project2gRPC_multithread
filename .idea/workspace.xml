@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Client:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1dacecc5-1b98-4e14-bfef-5686cebcb7fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Client_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_client_ClientRequest.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_client_ClientRequestDeleteOnly.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_client_ClientRequestGetOnly.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_client_ClientRequestPutOnly.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_server.sh" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project2Maven/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project2Maven/src/main/resources/user.proto" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project2Maven/src/tmp/defaultPackage/GRPCServer.java" afterDir="false" />
@@ -14,11 +25,35 @@
       <change afterPath="$PROJECT_DIR$/../project2MavenClient/src/main/java/com/threadhelp/grpc/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project2MavenClient/src/main/java/com/threadhelp/grpc/userGrpc.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../project2MavenClient/src/main/java/defaultPackage/grpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project3/.idea/artifacts/Coordinator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project3/out/artifacts/Client/ClientRequest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project3/out/artifacts/Client/ClientRequestDeleteOnly.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project3/out/artifacts/Client/ClientRequestGetOnly.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project3/out/artifacts/Client/ClientRequestPutOnly.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project3/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/AgoraLiveAuction/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/Paxos-Based-Multi-threaded-Replicated-Key-Value-Store-using-RPC-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/Paxos-Based-Multi-threaded-Replicated-Key-Value-Store-using-RPC-master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/Paxos-Based-Multi-threaded-Replicated-Key-Value-Store-using-RPC-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/Paxos-Based-Multi-threaded-Replicated-Key-Value-Store-using-RPC-master/Paxos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/Replicated-using-2-Phase-Commit-Multi-threaded-Key-Value-Store-using-RPC-master/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sample/incrementOne/src/IncrementOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/KeyValStoreClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/KeyValStoreClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/project2Jelly.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClientRequestGetOnly.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientRequestGetOnly.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClientRequestPutOnly.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClientRequestPutOnly.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KeyValStoreClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KeyValStoreClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KeyValStoreThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KeyValStoreThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project3/src/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/src/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project3/src/server/Coordinator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/src/server/Coordinator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project3/src/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project3/src/server/Server.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,105 +70,110 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.79849815">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreClient.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#380#381#0" expanded="true" />
-                    <element signature="e#412#413#0" expanded="true" />
-                    <element signature="e#356#357#0" expanded="true" />
-                    <element signature="e#383#384#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreThreadPool.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="334">
-                  <caret line="112" column="57" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="57" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreServer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="14">
-                  <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/proto/keyValueStore.proto">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-546">
-                  <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/project2Jelly.iml">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6">
-                  <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_server.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_client_ClientRequest.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-end-line="5" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_client_ClientRequestDeleteOnly.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="104" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreThreadPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="82" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequestGetOnly.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="9" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequestPutOnly.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/proto/keyValueStore.proto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -144,13 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1.</find>
-      <find>maven-</find>
-      <find>netty</find>
-      <find>BindableService</find>
-      <find>SelectChannelConnector</find>
-      <find>maven</find>
-      <find>site</find>
       <find>grpc</find>
       <find>jav</find>
       <find>1.8</find>
@@ -170,10 +203,17 @@
       <find>*****</find>
       <find>channel</find>
       <find>100</find>
-      <find>block</find>
       <find>random</find>
       <find>blocking</find>
       <find>javax</find>
+      <find>txt</find>
+      <find>switch</find>
+      <find>keyvaluerepl</find>
+      <find>keyvalreply</find>
+      <find>set</find>
+      <find>block</find>
+      <find>grpc.version</find>
+      <find>newBlockingStub</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,12 +224,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ServerPackage/KeyValStoreServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/KeyValStoreServer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/KeyValStoreImpl.java" />
         <option value="$PROJECT_DIR$/src/main/proto/keyValueStore.proto" />
         <option value="$PROJECT_DIR$/src/main/java/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/KeyValStoreThreadPool.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ClientRequestGetOnly.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/ClientRequestPutOnly.txt" />
+        <option value="$PROJECT_DIR$/run_server.sh" />
+        <option value="$PROJECT_DIR$/run_client.sh" />
+        <option value="$PROJECT_DIR$/run_client_ClientRequestDeleteOnly" />
+        <option value="$PROJECT_DIR$/run_client_ClientRequestGetOnly" />
+        <option value="$PROJECT_DIR$/run_client_ClientRequestPutOnly.txt" />
         <option value="$PROJECT_DIR$/src/main/java/KeyValStoreClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/KeyValStoreThreadPool.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -211,10 +258,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
-    <option name="y" value="76" />
+    <option name="x" value="89" />
+    <option name="y" value="35" />
     <option name="width" value="1351" />
-    <option name="height" value="727" />
+    <option name="height" value="786" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -223,7 +270,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,12 +279,86 @@
             </path>
             <path>
               <item name="project2Jelly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2Jelly" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project2Jelly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2Jelly" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project2Jelly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2Jelly" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Client_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project2Jelly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2Jelly" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Server_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project2Jelly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2Jelly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project2Jelly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2Jelly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project2Jelly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2Jelly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project2Jelly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2Jelly" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project2Jelly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2Jelly" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project2Jelly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2Jelly" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project2Jelly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2Jelly" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="protoc-dependencies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project2Jelly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2Jelly" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="protoc-plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project2Jelly" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,10 +367,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -317,11 +437,20 @@
       <updated>1582609432411</updated>
       <workItem from="1582609443212" duration="22950000" />
       <workItem from="1582702621203" duration="31475000" />
+      <workItem from="1583453367886" duration="1083000" />
+      <workItem from="1584249576815" duration="11812000" />
+      <workItem from="1584752176639" duration="755000" />
+      <workItem from="1585428386076" duration="6310000" />
+      <workItem from="1586637770246" duration="7632000" />
+      <workItem from="1586761872615" duration="2119000" />
+      <workItem from="1586991873843" duration="8290000" />
+      <workItem from="1587186550916" duration="1352000" />
+      <workItem from="1587242315368" duration="1742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54425000" />
+    <option name="totallyTimeSpent" value="95520000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,19 +462,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="92" y="135" width="1440" height="711" extended-state="0" />
+    <frame x="126" y="35" width="1351" height="786" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18383405" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22307105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" weight="0.3299363" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866243" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31663975" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31556195" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,19 +482,20 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28432956" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22334294" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3279483" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.50106156" side_tool="true" weight="0.29470673" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32708934" />
+      <window_info anchor="bottom" id="TypeScript" order="13" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" sideWeight="0.49893844" visible="true" weight="0.29470673" />
+      <window_info anchor="right" id="Maven" order="6" sideWeight="0.49893844" visible="true" weight="0.13903743" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.50106156" side_tool="true" weight="0.29470673" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,9 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project2Jelly.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/KeyValStoreImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -410,9 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/keyValueStore/UserGrpc.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/keyValueStore/UserGrpc.class" />
     <entry file="file://$PROJECT_DIR$/target/classes/keyValueStore/KeyValueStore.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-284" />
@@ -421,13 +546,7 @@
     <entry file="file://$PROJECT_DIR$/target/classes/keyValueStore/KeyValStoreGrpc.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/grpc-java/keyValueStore/UserGrpc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/grpc-java/keyValueStore/UserGrpc.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/grpc/grpc-stub/1.17.1/grpc-stub-1.17.1.jar!/io/grpc/stub/ClientCalls.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -435,81 +554,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequestTCP.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/grpc-java/keyValueStore/KeyValStoreGrpc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="298" column="54" selection-start-line="298" selection-start-column="54" selection-end-line="298" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequest.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequestTCP.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/project2Jelly.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UserServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/grpc/grpc-core/1.17.1/grpc-core-1.17.1.jar!/io/grpc/Server.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="105">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/grpc/grpc-core/1.17.1/grpc-core-1.17.1.jar!/io/grpc/ManagedChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="112" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/keyValueStore.proto">
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/java/keyValueStore/KeyValueStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="90">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/grpc-java/keyValueStore/KeyValStoreGrpc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequestDeleteOnly.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="30" column="87" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="112" column="57" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="57" />
+        <state relative-caret-position="390">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequestGetOnly.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientRequestPutOnly.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/keyValueStore.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_server.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_client_ClientRequest.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-end-line="5" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_client_ClientRequestPutOnly.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="101" selection-start-line="5" selection-start-column="101" selection-end-line="5" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_client_ClientRequestGetOnly.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_client_ClientRequestDeleteOnly.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="104" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="82" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -518,20 +711,10 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KeyValStoreThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -541,10 +724,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Client:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -591,7 +776,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
